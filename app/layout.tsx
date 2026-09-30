@@ -30,6 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="ru" className={`bg-background ${manrope.variable}`}>
       <head>
+        <meta name="yandex-verification" content="1dc8916043f7c50c" />
         <meta name="format-detection" content="telephone=no" />
       </head>
       <body className="font-sans">{children}</body>
